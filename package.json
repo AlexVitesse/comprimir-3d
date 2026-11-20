@@ -1,0 +1,26 @@
+{
+  "name": "comprimir-3d",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Audita y comprime glb/gltf y texturas sueltas para gemelos 3D en three.js (envoltura de glTF-Transform + sharp)",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "comprimir-3d": "comprimir.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node prueba.mjs"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "^4.5.1",
+    "@gltf-transform/extensions": "^4.5.1",
+    "@gltf-transform/functions": "^4.5.1",
+    "draco3dgltf": "^1.5.9",
+    "gltf-validator": "^2.0.0-dev.3.10",
+    "meshoptimizer": "^1.3.0",
+    "sharp": "^0.35.5"
+  }
+}
